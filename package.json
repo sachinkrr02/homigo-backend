@@ -4,7 +4,7 @@
   "description": "Homigo API - Node.js, Express, SQL",
   "main": "src/server.js",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node src/index.js",
     "dev": "node --watch src/server.js",
     "migrate": "node src/db/runMigrations.js"
   },
@@ -19,4 +19,4 @@
     "pg": "^8.12.0",
     "uuid": "^9.0.1"
   }
-}
+} 
