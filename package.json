@@ -2,10 +2,10 @@
   "name": "homigo-backend",
   "version": "1.0.0",
   "description": "Homigo API - Node.js, Express, SQL",
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node src/index.js",
-    "dev": "node --watch src/index.js",
+    "start": "node index.js",
+    "dev": "node --watch index.js",
     "migrate": "node src/db/runMigrations.js"
   },
   "dependencies": {
