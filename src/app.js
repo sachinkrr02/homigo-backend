@@ -17,6 +17,9 @@ app.use(cors());
 app.use(express.json());
 
 const API_BASE = '/api';
+app.get("/", (req, res) => {
+  res.send("Backend is running 🚀");
+});
 app.use(`${API_BASE}/auth`, authRoutes);
 app.use(`${API_BASE}/users`, usersRoutes);
 app.use(`${API_BASE}/properties`, propertiesRoutes);
